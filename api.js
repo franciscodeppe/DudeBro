@@ -1,6 +1,7 @@
-var spotifySearch = function (query) {
-    var track = query;
-    var queryURL = "https://api.spotify.com/v1/search?q=" + track + "&type=track";
+let spotifySearch = function (query) {
+  console.log("Spotify Hello!")
+    let track = query;
+    let queryURL = "https://api.spotify.com/v1/search?q=" + track + "&type=track";
     $.ajax({
         url: queryURL,
         method: "GET"
@@ -10,9 +11,11 @@ var spotifySearch = function (query) {
         }
     });
 };
+
 function omdbSearch() {
-    var movie =
-    var queryURL = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&r=json";
+  console.log("Movie Hello!")
+    let movie;
+    let queryURL = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&r=json";
 
     $.ajax({
       url: queryURL,
@@ -21,5 +24,8 @@ function omdbSearch() {
 
 
     });
+  }
 
+  function twitterSearch() {
+    console.log("Twitter Hello!")
   }
