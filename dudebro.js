@@ -20,7 +20,7 @@ switch (action) {
 
 function spotifySearch() {
   console.log("Spotify Hello!")
-  console.log(value + " is a movie")
+  console.log(value + " is a song")
 //   let track = query;
 //   let queryURL = "https://api.spotify.com/v1/search?q=" + track + "&type=track";
 //   $.ajax({
