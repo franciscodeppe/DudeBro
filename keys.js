@@ -8,7 +8,8 @@ exports.twitterKey = {
 }
 
 exports.spotifyKey = {
-
+	id: "8b73d27969d84b778c589981b9539fb1",
+	secret: "e5312c6c723d44c5b14ad5e2e4b6f47b"
 }
 
 exports.omdbKey = {
